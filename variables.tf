@@ -1,3 +1,3 @@
-data "aws_availability_zone" "test-az" {
-	name = "ap-southeast-2a"
+data "aws_availability_zones" "available" {
+	state = "available"
 }
